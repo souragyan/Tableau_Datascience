@@ -1,0 +1,95 @@
+Tableau public vs tableau desktop , tableau reader(optional) (try to install it)
+1} limited connections, server side is limited to google sheets, open data etc
+2}There will be no live or extract connection (by default it will be only extract)
+What you can do is, "Download" the Workbooks from your account which will be saved as Tableau packaged workbook with extension .twbx and you can share them with anybody
+3}tableau public, you cannot save the workbook on your local machines, only to tableau public gallery, absolutely no security involved , user level security will not come into play
+4}if somebody has sent you a tableau workbook , you cannot open it using tableau public, only what you have downloaded from tableau public gallery, you can open using tableau public else use "tableau reader"
+5}Copy function will not be there in tableau public, print to pdf will also not be there in tableau public
+
+
+Live , extract-create local database store it in local machine
+Live - means direct connection from underlying database
+This extract is created by tableau's fast data engine, it is saved with extension .hyper earlier it was tde(tableau data extract) extract, response is very qucik with hyper, it will be stored in my local machine
+extract-Tableau data extract, simply ecxtract data, you can also extract limited data also
+extract can be copied or exported( image format-.png, data-msaccess format, or pdf), then save it as twbx (self contained package)
+it can be uplodaded onto server (you can publish it on tableau public if data is generic)
+
+Tableau extract , Tableau live( direct connection to your databse)
+this option is present in your tableau desktop 
+in case of tableau public by default everything is your extract
+2 different lines businesses,cant do cross databse connectivuty because my performance will degrade
+join is used -less data less tables 
+blending-data coming from lot of tables dont want to create one big table , keeping connections seperate
+data blending- two data sources (coffe chain and global superstore)
+If we have big databses (like 5 tables from one dataset and 5 tables from another dataset)
+If we can combine at work sheet level with 2 different connections, then efficiency will improve- Data blending
+connection with 2 different databses(global superstore, coffe chain)
+
+The following view is built with help of VIzql server
+Rows : profit, category
+Columns: region 
+Joins: Inner join , left join, right join , full outer join
+cross database(conncetivity) join (coffee chain)-ms access and im joining with my sample superstore(excel file)
+orange bars, blue bars , tableau is smart enough
+
+Data pane , analytics pane, 
+column shelf, row shelf, page shelf, filter shelf, marks card, show me(very popular visualisations will show up here)-24 charts are popular
+1}selection on data pane, tableau will activate certain set of charts- create bar chart , text table
+TABLEAU follows best practices in visualisation
+
+when you go to show me ppanle bottom section ,min fields are important , how many measures we need , how many dimensions we need
+(example, profit vs regions)
+column shelf will get aligned along x axis, row shelf will get aligned on y axis
+you shoudld refresh this extract manually if you do it on tableau desktop, however you upload it on on tableau server, you can set the frequency(monthly ,daily, hourly with the help of scheduler )etc.
+The following view is built with help of VIzql server
+Rows : profit, category
+Columns: region 
+Joins: Inner join , left join, right join , full outer join
+cross database(conncetivity) join (coffee chain)-ms access and im joining with my sample superstore(excel file)
+orange bars, blue bars , tableau is smart enough
+
+change the name of combine connection to some custom named name
+create folders
+group by folder
+hierarchies parent child explaination (drilldown and rollup features)
+
+
+sample superstore datset
+global superstore dataset
+coffe chain ms access dataset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
